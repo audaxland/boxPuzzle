@@ -1,0 +1,21 @@
+
+
+.MapContainer {
+    border: 1px solid rebeccapurple;
+    margin: 10px auto;
+    position: relative;
+    background-color: rgba(255, 255, 200, 0.2);
+}
+
+.CodeBlock {
+    width: 800px;
+    text-align: left;
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    white-space: pre-wrap;
+}
+
+.Buttons {
+    padding: 20px;
+}

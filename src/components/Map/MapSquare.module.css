@@ -1,0 +1,24 @@
+.MapSquare {
+    width: 100%;
+    height: 100%;
+}
+
+.Floor {
+    background-color: steelblue;
+}
+
+.Floor.Landing {
+    background-color: sandybrown;
+}
+
+.Blank {
+
+}
+
+.Wall {
+    background-color: darkslategrey;
+}
+
+.Wall.Surround {
+    border-radius: 5%;
+}

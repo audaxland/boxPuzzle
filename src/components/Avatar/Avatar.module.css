@@ -1,0 +1,67 @@
+.AvatarSquare {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.Avatar {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    background-color: rgba(50,50,50,0.5);
+    margin: 0 auto;
+}
+
+.Sprite {
+    width: 150%;
+    height: 200%;
+    margin: -50% -25%;
+    background-size: 400% 400%;
+    animation: 0.5s step-start alternate infinite;
+}
+
+.Sprite.Down {
+    animation-name: down;
+}
+
+.Sprite.Up {
+    animation-name: up;
+}
+
+.Sprite.Left {
+    animation-name: left;
+}
+
+.Sprite.Right {
+    animation-name: right;
+}
+
+@keyframes down {
+    0%   {background-position: -1% 0%;}
+    25%  {background-position: 98% 0%;}
+    50%  {background-position: 198% 0%;}
+    100% {background-position: 298% 0%;}
+}
+
+@keyframes up {
+    0%   {background-position: 0% 100%;}
+    25%  {background-position: 99% 100%;}
+    50%  {background-position: 199% 100%;}
+    100% {background-position: 300% 100%;}
+}
+
+@keyframes left {
+    0%   {background-position: -1% 300%;}
+    25%  {background-position: 98% 300%;}
+    50%  {background-position: 198% 300%;}
+    100% {background-position: 298% 300%;}
+}
+
+@keyframes right {
+    0%   {background-position: -1% 200%;}
+    25%  {background-position: 98% 200%;}
+    50%  {background-position: 199% 200%;}
+    100% {background-position: 300% 200%;}
+}

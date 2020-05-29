@@ -1,0 +1,17 @@
+.WorldMap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.WorldMap > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.Square { 
+    flex: 1;
+}
+
