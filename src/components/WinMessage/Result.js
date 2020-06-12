@@ -11,8 +11,8 @@ const results = (props) => {
             <div>
                 <h3>Your Stats</h3>
                 <ul>
-                    {props.levelLog.map(level => (
-                        <li key={level.level}>
+                    {props.levelLog.map((level, index) => (
+                        <li key={index}>
                             <div>Level: {level.level}</div>
                             <div>Time: {level.time}</div>
                             <div>Moves: {level.moves}</div>
